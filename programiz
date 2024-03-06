@@ -1,0 +1,39 @@
+
+// Ejercicio Uno
+// Encontrar el número más grande en un array predefinido.
+const numeros = [7, 2, 5, 1, 9, 3];
+let maximo = numeros[0];
+
+// Resolución de problema
+
+console.log(maximo === 9);
+
+
+// Ejercicio Dos
+// Devuelve la suma de todos los números en el array.
+const numeros = [7, 2, 5, 1, 9, 3];
+let suma = 0;
+
+// Resolución de problema
+
+console.log ( suma === 27 ) ;
+
+
+// Ejercicio Tres
+// Contar la cantidad de vocales en una cadena de texto
+const texto = "elefante";
+let cantidadVocales = 0;
+
+//Resolución de problema
+
+console.log (cantidadVocales === 4);
+
+
+// Ejercicio Cuatro
+// Determinar si un número es par o impar
+const numero = 34;
+let esPar;
+
+// Resolucion de problema
+
+console.log(esPar); // Devuelve true si el número es par, false si es impar

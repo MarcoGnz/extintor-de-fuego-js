@@ -1,0 +1,98 @@
+.house {
+    width: 400px;
+    height: 400px;
+    background-image: url('../imagenes/casa-04.gif'); /* Ruta de la imagen de la casa */
+    background-size: cover;
+    position: relative;
+    margin: 50px auto;
+}
+
+
+.fire1 {
+    width: 90px;
+    height: 90px;
+    background-image: url('../imagenes/fuego.gif'); /* Ruta de la imagen GIF de fuego */
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.fire2 {
+    width: 90px;
+    height: 90px;
+    background-image: url('../imagenes/fuego.gif'); /* Ruta de la imagen GIF de fuego */
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.fire3 {
+    width: 90px;
+    height: 90px;
+    background-image: url('../imagenes/fuego.gif'); /* Ruta de la imagen GIF de fuego */
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+.fire4 {
+    width: 90px;
+    height: 90px;
+    background-image: url('../imagenes/fuego.gif'); /* Ruta de la imagen GIF de fuego */
+    background-size: cover;
+    position: absolute;
+    top: 10px;
+    left: 75px;
+}
+
+button {
+    display: inline-block;
+    margin: 20px;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+}
+
+button img {
+    width: 50px;
+    height: 50px;
+}
+
+.area {
+    position: absolute;
+    width: 100px; /* Ajusta el ancho del área según sea necesario */
+    height: 100px; /* Ajusta la altura del área según sea necesario */
+}
+
+#area1 {
+    top: 50px; /* Ajusta la posición superior del área 1 */
+    left: 50px; /* Ajusta la posición izquierda del área 1 */
+}
+
+#area2 {
+    top: 50px; /* Ajusta la posición superior del área 2 */
+    left: 200px; /* Ajusta la posición izquierda del área 2 */
+}
+
+#area3 {
+    top: 200px; /* Ajusta la posición superior del área 3 */
+    left: 50px; /* Ajusta la posición izquierda del área 3 */
+}
+
+#area4 {
+    top: 200px; /* Ajusta la posición superior del área 4 */
+    left: 200px; /* Ajusta la posición izquierda del área 4 */
+}
+
+body {
+    background-image: url('/imagenes/fondo.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra toda la ventana */
+    background-position: center; /* Centra la imagen en la ventana */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    color: white;
+}

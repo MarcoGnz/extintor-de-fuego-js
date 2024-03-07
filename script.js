@@ -44,12 +44,13 @@ function resolverProblemaDos() {
 }
 
 function resolverProblemaTres() {
+    // Contar la cantidad de vocales en una cadena de texto
     const texto = "elefante";
     let cantidadVocales = 0;
 
     //Resolucion de problema
 
-    return cantidadVocales === 4; // Ejemplo simple de resolución de problema
+    return cantidadVocales === 4;
 }
 
 function resolverProblemaCuatro() {

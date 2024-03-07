@@ -31,9 +31,9 @@ console.log (cantidadVocales === 4);
 
 // Ejercicio Cuatro
 // Determinar si un número es par o impar
-const numero = 34;
+const numero = 7;
 let esPar;
 
 // Resolucion de problema
 
-console.log(esPar); // Devuelve true si el número es par, false si es impar
+console.log(esPar === false); // Devuelve true si el número es par, false si es impar
